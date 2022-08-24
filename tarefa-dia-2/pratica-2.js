@@ -45,7 +45,7 @@ if (b) {
 
 let c = []
 
-// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): else
+// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): else (errei)
 if (c) {
     console.log("Verdade! O valor ", c, " é considerado como verdade");
 } else {
@@ -54,21 +54,21 @@ if (c) {
 
 let d = [1,2,3,4]
 
-// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): 
+// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): if
 if (d) {
     console.log("Verdade! O valor ", d, " é considerado como verdade");
 } else {
     console.log("Falso! O valor ", d, " não é considerado como verdade");
 }
 
-// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): 
+// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): if
 if (d[0] == 1) {
     console.log("Verdade! O valor ", d[0], " do elemento do índice 0 da variável 'd' é igual a 1");
 } else {
     console.log("Falso! O valor ", d[0], " do elemento do índice 0 da variável 'd' não é igual a 1");
 }
 
-// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): 
+// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): if (errei)
 if (d[1] == 1) {
     console.log("Verdade! O valor ", d[1], " do elemento do índice 1 da variável 'd' é igual a 1");
 } else {
@@ -77,7 +77,7 @@ if (d[1] == 1) {
 
 let e = "Nome"
 
-// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): 
+// Escreva depois dos ':' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'): if
 if (typeof(e) == 'string') {
     console.log("Verdade! O tipo de dado da variável 'e' é uma string");
 } else {
