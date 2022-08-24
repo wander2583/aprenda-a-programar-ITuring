@@ -27,3 +27,4 @@ if (produtoC.internacional == true) {
 else {
   console.log('O produto, ' + produtoC.nome + ' tem o valor total de: R$' + produtoC.valor * taxaBrasil)
 }
+
