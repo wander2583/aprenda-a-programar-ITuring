@@ -1,6 +1,6 @@
 // verificar se um número é primo...
 
-let numero = 2
+let numero = 1500450271
 let ehPrimo = `Sim, o número ${numero} é primo!`
 
 if (numero === 1) {
