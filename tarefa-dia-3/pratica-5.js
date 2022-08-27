@@ -117,9 +117,9 @@ console.log(`O valor total sem as gorjetas é R$${valor1.toFixed(2)}`)
 
 let soma2 = 0
 let valor2 = receita.reduce(function(somaValor2, valorAtual2) {
-  return somaValor2 + valorAtual2.valor;
-}, soma1)
-console.log(`O valor total sem as gorjetas é R$${valor.toFixed(2)}`)
+  return somaValor2 + valorAtual2.valor + valorAtual2.gorjeta;
+}, soma2)
+console.log(`O valor total com as gorjetas é R$${valor2.toFixed(2)}`)
 
 
 
