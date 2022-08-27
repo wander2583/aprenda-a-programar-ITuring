@@ -98,7 +98,7 @@ let receita = [
   {'valor': 809, 'gorjeta': 80.9},
   {'valor': 801, 'gorjeta': 80.1},
   {'valor': 344, 'gorjeta': 34.4},
-  {'valor': 9, 'gorjeta': 80.9}
+  {'valor': 809, 'gorjeta': 80.9}
 ]
 
 /* PROBLEMA 1: Qual o valor total de vendas sem gorjeta? --------------------- */
