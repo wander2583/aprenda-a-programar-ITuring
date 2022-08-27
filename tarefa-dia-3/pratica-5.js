@@ -104,11 +104,23 @@ let receita = [
 /* PROBLEMA 1: Qual o valor total de vendas sem gorjeta? --------------------- */
 //COLOQUE SUA SOLUÇÃO AQUI
 
+let soma1 = 0
+let valor1 = receita.reduce(function(somaValor1, valorAtual1) {
+  return somaValor1 + valorAtual1.valor;
+}, soma1)
+console.log(`O valor total sem as gorjetas é R$${valor1.toFixed(2)}`)
 
 /* ----------------------------------------------------------------------------- */
 
 /* PROBLEMA 2: Qual o valor total de vendas incluindo a gorjeta? --------------- */
 //COLOQUE SUA SOLUÇÃO AQUI
+
+let soma2 = 0
+let valor2 = receita.reduce(function(somaValor2, valorAtual2) {
+  return somaValor2 + valorAtual2.valor;
+}, soma1)
+console.log(`O valor total sem as gorjetas é R$${valor.toFixed(2)}`)
+
 
 
 /* ----------------------------------------------------------------------------- */
