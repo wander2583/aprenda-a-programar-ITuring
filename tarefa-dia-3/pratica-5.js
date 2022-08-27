@@ -98,7 +98,7 @@ let receita = [
   {'valor': 809, 'gorjeta': 80.9},
   {'valor': 801, 'gorjeta': 80.1},
   {'valor': 344, 'gorjeta': 34.4},
-  {'valor': 809, 'gorjeta': 80.9}
+  {'valor': 9, 'gorjeta': 80.9}
 ]
 
 /* PROBLEMA 1: Qual o valor total de vendas sem gorjeta? --------------------- */
@@ -128,5 +128,12 @@ console.log(`O valor total com as gorjetas é R$${valor2.toFixed(2)}`)
 /* PROBLEMA 3: Quantas vendas foram abaixo de 50 reais? ----------------------- */
 //COLOQUE SUA SOLUÇÃO AQUI
 
+let cont = 0
+for (let i = 0; i < receita.length; i++) {
+  if (receita[i].valor < 50)
+  cont++;
+}
+
+console.log(cont)
 
 /* ----------------------------------------------------------------------------- */
